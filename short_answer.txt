@@ -9,7 +9,8 @@ In the HTTP protocol, Client usually sends request and Sever sends responses.
 
 -------------------
 2) What do we mean by a "route" on a server?
-Route is like endpoint and is appended to based URL of the API
+Route is like endpoint or path for our data packets to travel from their origin to the destination
+and is appended to based URL of the API.
 
 
 
