@@ -55,7 +55,4 @@ module.exports = {
                         
     },
 
-    getWorldTime: (req, res) => {
-        
-    }
 }
