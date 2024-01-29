@@ -1,9 +1,15 @@
 1) What is the difference between a client and a server? In the HTTP protocol,
 which one of these sends requests, and which one sends responses?
+Client is usually a personal computer that talks to a server through the internet 
+and also known as the front-end part of our application.
+Server is usually a computer that has clients that will talk to request information from 
+and also known as the back-end of our application.
 
+In the HTTP protocol, Client usually sends request and Sever sends responses. 
 
 -------------------
 2) What do we mean by a "route" on a server?
+Route is like endpoint and is appended to based URL of the API
 
 
 
@@ -17,3 +23,10 @@ Put them in the correct order from start to finish.
 - The server sends that HTML back to the user's browser as a response
 - The user's browser sends a request to a Facebook server for the route /home
 - The User types in https://facebook.com/home and hits enter
+
+Steps:
+- The User types in https://facebook.com/home and hits enter
+- The user's browser sends a request to a Facebook server for the route /home
+- The server runs a function associated to the route /home, which produces some HTML
+- The server sends that HTML back to the user's browser as a response
+- The user's browser displays the HTML it recieved
